@@ -6,7 +6,7 @@ const {
   createValidator,
   updateValidator,
   validate,
-} = require("../validators/studentValidator.js");
+} = require("/studentValidator.js");
 
 Router.get("/index", studentController.index);
 
@@ -31,4 +31,5 @@ Router.put("/update/:id", (req, res, next) => {
 Router.delete("/delete/:id", studentController.delete);
 
 module.exports = Router;
+
 
