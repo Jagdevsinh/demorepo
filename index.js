@@ -8,7 +8,7 @@ const PORT = 80;
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv:/",  // <-- Replace with your actual MongoDB connection string
+  "mongodb+srv://jr5234033_db_user:jagdevsinh1247@node.4lvrr1x.mongodb.net/?retryWrites=true&w=majority&appName=Node",  // <-- Replace with your actual MongoDB connection string
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
