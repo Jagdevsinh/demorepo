@@ -1,4 +1,4 @@
-const Song = require("../models/Song.js");
+const Song = require("/Song.js");
 
 exports.index = (req, res) => {
   Song.find()
@@ -79,3 +79,4 @@ exports.delete = (req, res) => {
       res.status(500).send({ message: "Failed to delete song" });
     });
 };
+
